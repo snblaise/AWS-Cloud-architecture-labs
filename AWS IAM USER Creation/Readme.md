@@ -45,7 +45,7 @@ Replace *\<your_aws_account_id>* with your AWS account's unique ID.
 ![Verify User Creation](image4.png)
 
 ## Step 4: Enable Multi-Factor Authentication (MFA)
-Strengthen the security of your IAM user by activating Multi-Factor Authentication (MFA). [AWS multi-factor authentication (MFA)](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#enable-mfa-for-privileged-users) is an [AWS Identity and Access Management (IAM)](https://aws.amazon.com/iam/) best practice that requires a second authentication factor in addition to user name and password sign-in credentials. You can enable MFA at the AWS account level for root and IAM users you have created in your account.  learn more about AWS available methods for IAM at [AWS MFA](https://aws.amazon.com/iam/features/mfa/)
+Strengthen the security of your IAM user by activating Multi-Factor Authentication (MFA). [AWS multi-factor authentication (MFA)](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#enable-mfa-for-privileged-users) is an [AWS Identity and Access Management (IAM)](https://aws.amazon.com/iam/) best practice that requires a second authentication factor in addition to the user name and password sign-in credentials. You can enable MFA at the AWS account level for root and IAM users you have created in your account.  learn more about AWS available methods for IAM at [AWS MFA](https://aws.amazon.com/iam/features/mfa/)
  
 
 **4.1** From the IAM Console, select the "**Users**" section, find the "**cloudAdmin**" user, and click on the user name.
@@ -60,7 +60,8 @@ Strengthen the security of your IAM user by activating Multi-Factor Authenticati
 **4.5** Complete the setup and enhance the security of your IAM user with an additional layer of verification.
 ![Setup Athenticator](image7.png)
 
-**4.6** Log out from the root user and log in to the cloudadmin user using the copied URL using the credentials downloaded, and multifactor authentication codes from your authentication device.
+**4.6** Log out from the root user and log in to the *cloudAdmin* user using the copied URL using the credentials downloaded, and the multifactor authentication codes generated from your authenticator device.
+![CloudAdmin signedIn](image9.png)
 
 **Conclusion:**
 By creating an IAM user with administrative privileges and activating Multi-Factor Authentication, you've not only established efficient access management but also fortified the security of your AWS resources. Stay tuned for more insights into AWS IAM to elevate your cloud security expertise. Happy cloud computing!
